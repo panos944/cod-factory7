@@ -3,13 +3,13 @@ package gr.aueb.cf.ch5;
 import java.util.Scanner;
 
 /**
- * Εμφανίζει ένα μενού επιλογών (1. Πρόσθεση, 2. Αφαίρεση, ...).
- * Ο χρήστης επιλέγει.
- * Ανάλογα με την επιλογή εκτελείται η αντίστοιχη πράξη.
- * Και εκτυπώνεται το αποτέλεσμα.
- * Εκτελείται επαναληπτικά μέχρι ο χρήστης να επιλέξει
- * 'Έξοδος'
+ * Displays a menu of options (1. Addition, 2. Subtraction, ...).
+ * The user makes a selection.
+ * Based on the selection, the corresponding operation is performed.
+ * The result is then printed.
+ * It runs repeatedly until the user selects 'Exit'.
  */
+
 public class Calculator {
     static Scanner scanner = new Scanner(System.in);
 
