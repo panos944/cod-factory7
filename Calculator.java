@@ -37,13 +37,13 @@ public class Calculator {
     }
 
     public static void printMenu() {
-        System.out.println("Επιλέξτε ένα από τα παρακάτω:");
-        System.out.println("1. Πρόσθεση");
-        System.out.println("2. Αφαίρεση");
-        System.out.println("3. Πολλαπλασιασμός");
-        System.out.println("4. Διαίρεση");
-        System.out.println("5. Υπόλοιπο Διαίρεσης");
-        System.out.println("6. Έξοδος");
+        System.out.println("Please choose on of the following:");
+        System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
+        System.out.println("4. Division");
+        System.out.println("5. Division Remainder");
+        System.out.println("6. Exit");
     }
 
     public static int getOneInt() {
@@ -64,7 +64,7 @@ public class Calculator {
         int num2 = 0;
         int result = 0;
 
-        System.out.println("Παρακαλώ εισάγετε δύο ακεραίους");
+        System.out.println("Please insert two integers");
         num1 = getOneInt();
         num2 = getOneInt();
 
